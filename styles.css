@@ -87,6 +87,8 @@ blockquote {
 	.column-right {
 		margin: 20px 0;
 	}
-	.follow-button {
+		.follow-button {
 		margin-right: 0;
-		margin-bottom: 20
+		margin-bottom: 20px;
+	}
+}

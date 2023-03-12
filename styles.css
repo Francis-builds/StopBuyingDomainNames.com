@@ -18,8 +18,11 @@
 }
 
 .column-left {
+	flex-grow: 1;
+	display: flex;
 	justify-content: flex-end;
-	margin-bottom: 20px;
+	align-items: flex-end;
+	margin-top: auto;
 }
 
 .column-right {
@@ -53,10 +56,10 @@
 
 @media screen and (max-width: 600px) {
 	.column-left {
-		display: none;
+		order: 2;
 	}
 	.column-center {
-		order: 2;
+		order: 1;
 	}
 	.column-right {
 		order: 3;

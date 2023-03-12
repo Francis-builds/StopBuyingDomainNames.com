@@ -14,17 +14,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex-basis: 60%;
 }
-
-.column-right {
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 
 .follow-button {
 	display: inline-block;
@@ -56,13 +46,5 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-	}
-	.column-right {
-		order: 3;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: bottom;
-		margin-top: 20px;
 	}
 }

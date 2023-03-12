@@ -26,6 +26,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 0 20px;
+	max-width: 100%;
 }
 
 .column-right {
@@ -33,6 +35,7 @@ body {
 	flex-direction: column;
 	align-items: flex-end;
 	justify-content: flex-start;
+	margin: 0 20px;
 }
 
 h1 {
@@ -72,3 +75,18 @@ blockquote {
 .follow-button:hover {
 	background-color: #0d8bc9;
 }
+
+@media screen and (max-width: 600px) {
+	.container {
+		flex-direction: column;
+	}
+	.column {
+		width: 100%;
+	}
+	.column-center,
+	.column-right {
+		margin: 20px 0;
+	}
+	.follow-button {
+		margin-right: 0;
+		margin-bottom: 20

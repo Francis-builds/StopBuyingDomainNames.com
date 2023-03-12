@@ -14,15 +14,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex-basis: 33.33%;
-}
-
-.column-left {
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-basis: 60%;
 }
 
 .column-right {
@@ -58,9 +50,6 @@
 	background-color: #0d8bc9;
 }
 @media screen and (max-width: 600px) {
-	.column-left {
-		order: 2;
-	}
 	.column-center {
 		order: 1;
 		display: flex;
@@ -69,7 +58,7 @@
 		align-items: center;
 	}
 	.column-right {
-		order: 3;
+		order: 2;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

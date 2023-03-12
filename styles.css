@@ -20,15 +20,20 @@
 .column-left {
 	flex-grow: 1;
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin-top: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .column-right {
-	justify-content: flex-end;
-	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	flex-grow: 1;
+	margin-top: auto;
 }
+
 
 .follow-button {
 	display: inline-block;
